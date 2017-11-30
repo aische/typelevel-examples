@@ -345,7 +345,7 @@ Typing ":kind! Example1" will result in
 	
 ## SKI Combinators
 
-The Example1 program adds two numbers, 2 and 3. Unfortunately the command ":kind! Example1" won't show the fully evaluated result. To check if the resulting type is what we expect, we define the value "example1". We give "Maybe" as successor function and "Int" as zero, and give "example1" the type "Run Example1" and a value of (Just (Just (Just (Just (Just Int))))). If the resulting type did not match, the type checker would complain.
+The Example1 program adds two numbers, 2 and 3. Unfortunately the command ":kind! Example1" won't show the fully evaluated result. To check if the resulting type is what we expect, we define the value "example1". We give "Maybe" as successor function and "Int" as zero, and give "example1" the type "Run Example1" and a value of (Just (Just (Just (Just (Just 3))))). If the resulting type did not match, the type checker would complain.
 
     data V a
     data I
