@@ -514,7 +514,7 @@ Adding numbers 2 and 3 like in the SKI example looks like this:
                       (Var "f"))
                     (Var "x"))))))))
 
-Example1 will evaluate to
+Example3 will evaluate to
 
 	Maybe (Maybe (Maybe (Maybe (Maybe Int))))
 
